@@ -8,7 +8,11 @@ public class Q4 {
         System.out.println("Enter a 4 digit number : ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        if (n>999 && n<10000){
+        fd = n%10000/1000;
+        ld = n%10;
+        s = fd+ld;
+        System.out.println("Sum of max and min digit of the typed number is : " +s);
+        /*if (n>999 && n<10000){
             fd = n%10000/1000;
             ld = n%10;
             s = fd+ld;
@@ -16,6 +20,6 @@ public class Q4 {
         }
         else {
             System.out.println("The typed num is not a 4 digit num");
-        }
+        }*/
     }
 }
