@@ -11,7 +11,7 @@ public class Q32COUNTDUPLICATE {
 
         int[] Dup_Count_arr = new int[Size];
 
-        System.out.println("\nEnter "+Size+" Array elements : ");
+        System.out.println("\nEnter "+Size+ " Array elements : ");
         for(i = 0; i < Size; i++)
         {
             Dup_Count_arr[i] = sc.nextInt();
